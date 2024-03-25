@@ -1,0 +1,81 @@
+{
+	"parser": "@typescript-eslint/parser",
+	"extends": ["airbnb-base", "airbnb-typescript/base", "plugin:prettier/recommended", "prettier"],
+	"plugins": ["@typescript-eslint"],
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"env": {
+		"es6": true,
+		"node": true
+	},
+	"rules": {
+		"@typescript-eslint/indent": ["warn", "tab", { "SwitchCase": 1 }],
+		"@typescript-eslint/no-explicit-any": [
+			"warn",
+			{
+				"ignoreRestArgs": true
+			}
+		],
+		"@typescript-eslint/quotes": ["warn", "double"],
+		"@typescript-eslint/default-param-last": "off",
+		"import/no-default-export": "warn",
+		"import/no-cycle": "warn",
+		"import/order": [
+			"warn",
+			{
+				"alphabetize": {
+					"caseInsensitive": true,
+					"order": "asc"
+				},
+				"groups": ["builtin", "external", "internal"],
+				"newlines-between": "always",
+				"pathGroups": [
+					{
+						"pattern": "dotenv",
+						"group": "external",
+						"position": "before"
+					},
+					{
+						"pattern": "@/**",
+						"group": "internal",
+						"position": "before"
+					}
+				],
+				"pathGroupsExcludedImportTypes": ["dotenv"]
+			}
+		],
+		"import/prefer-default-export": "off",
+		"import/extensions": [
+			"warn",
+			"always",
+			{
+				"pattern": {
+					"ts": "never"
+				}
+			}
+		],
+		"indent": ["warn", "tab", { "SwitchCase": 1 }],
+		"max-len": [
+			"warn",
+			{
+				"code": 120
+			}
+		],
+		"no-mixed-spaces-and-tabs": "warn",
+		"object-curly-spacing": ["warn", "always"],
+		"sort-imports": [
+			"warn",
+			{
+				"ignoreDeclarationSort": true
+			}
+		]
+	},
+	"settings": {
+		"import/resolver": {
+			"typescript": {
+				"alwaysTryTypes": true
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"ignore": [".git", ".vscode", "node_modules"],
+	"watch": ["src"],
+	"ext": "ts,json",
+	"execMap": {
+		"ts": "ts-node -r tsconfig-paths/register"
+	}
+}
