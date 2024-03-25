@@ -1,5 +1,3 @@
-// Set up Husky and delete this line afterwards
-
 import { config } from "dotenv";
 /**
  * Execute dotenv.config() at the very beginning of your entry file (before any other code runs), so that dotenv loads
@@ -10,6 +8,7 @@ import { config } from "dotenv";
 config({ path: [".env.development", ".env.production"] });
 
 /* eslint-disable import/first */
+import "module-alias/register";
 import bodyParser from "body-parser";
 import cors from "cors";
 import express, { Express, Request, Response } from "express";
