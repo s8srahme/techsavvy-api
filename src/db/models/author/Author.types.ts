@@ -1,5 +1,7 @@
 import { Optional } from "sequelize";
 
+// M O D E L  T Y P E S
+
 export type AuthorAttributes = {
 	id: string;
 	lastName: string;

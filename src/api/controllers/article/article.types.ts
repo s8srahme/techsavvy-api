@@ -3,7 +3,7 @@
  * (DTOs).
  */
 
-import { ArticleAttributes } from "@/db/models/article/Article.types";
+import type { ArticleAttributes, ArticleCreationAttributes } from "@/db/models/article/Article.types";
 
 import type { Author } from "../author/author.types";
 
@@ -15,8 +15,8 @@ export type Article = Omit<ArticleAttributes, "deletedAt"> & { author?: Author }
 
 /* eslint-disable prettier/prettier */
 export type CreateArticleParams = Omit<
-ArticleAttributes,
-"id" | "slug" | "createdAt" | "updatedAt" | "deletedAt"
+	ArticleCreationAttributes,
+	"id" | "slug" | "createdAt" | "updatedAt" | "deletedAt"
 >;
 /* eslint-enable prettier/prettier */
 export type UpdateArticleParams = Partial<CreateArticleParams>;

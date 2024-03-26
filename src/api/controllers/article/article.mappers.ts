@@ -26,7 +26,10 @@ export const toArticle = (article: ArticleResultAttributes): Article => {
 		// Tidy up the raw Author data before sending it to the client
 		const transformedAuthor: Author = toAuthor(article.Author);
 		transformedArticle.author = transformedAuthor;
-	} else transformedArticle.authorId = article.authorId; // TODO: Get Author object on POST response controller
+	} else {
+		// TODO: Replace authorId with Author object on POST response controller
+		transformedArticle.authorId = article.authorId;
+	}
 
 	return transformedArticle;
 };

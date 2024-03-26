@@ -1,9 +1,13 @@
-import { create, deleteById, getAll, getById, update } from "@/db/dal/author/author.dal";
+import { bulkCreate, create, deleteById, getAll, getById, update } from "@/db/dal/author/author.dal";
 import { FilterAuthorParams } from "@/db/dal/author/author.types";
 import type { AuthorCreationAttributes, AuthorResultAttributes } from "@/db/models";
 
 export const createOne = (payload: AuthorCreationAttributes): Promise<AuthorResultAttributes> => {
 	return create(payload);
+};
+
+export const createMany = (payload: AuthorCreationAttributes[]): Promise<AuthorResultAttributes[]> => {
+	return bulkCreate(payload);
 };
 
 export const updateOne = (id: string, payload: Partial<AuthorCreationAttributes>): Promise<AuthorResultAttributes> => {

@@ -34,6 +34,20 @@ export const createOne = async (
 	}
 };
 
+export const createMany = async (
+	req: Request,
+	res: TypedResponse<SuccessResponse<Article> | ErrorResponse>
+): Promise<TypedResponse<SuccessResponse<Article> | ErrorResponse>> => {
+	// TODO: Limit articles array length to 50
+	try {
+		const payload: CreateArticleParams[] = req.body.articles;
+		const articles = (await articleService.createMany(payload)).map(toArticle);
+		return res.status(201).json({ status: ResponseStatus.SUCCESS, data: articles });
+	} catch (err) {
+		return res.status(400).json({ status: ResponseStatus.ERROR, message: err.message });
+	}
+};
+
 export const updateOne = async (
 	req: Request,
 	res: TypedResponse<SuccessResponse<Article> | ErrorResponse>
@@ -51,6 +65,14 @@ export const updateOne = async (
 		return res.status(404).json({ status: ResponseStatus.ERROR, message: err.message });
 	}
 };
+
+/**
+ * TODO: Add updateMany controller (Bulk update)
+ *
+ * PUT /api/v2/articles/update_many
+ * Accepts an array of up to 50 article objects.
+ * Returns status and JSON object.
+ */
 
 export const retrieveOne = async (
 	req: Request,
@@ -94,3 +116,11 @@ export const deleteOne = async (
 		return res.status(500).json({ status: ResponseStatus.ERROR, message: err.message });
 	}
 };
+
+/**
+ * TODO: Add deleteMany controller (bulk delete)
+ *
+ * DELETE /api/v2/articles/destroy_many?ids=1,2,3
+ * Accepts a comma-separated list of up to 50 article ids.
+ * Returns status and JSON object.
+ */

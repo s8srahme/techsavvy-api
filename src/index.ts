@@ -7,8 +7,11 @@ import { config } from "dotenv";
  */
 config({ path: [".env.development", ".env.production"] });
 
+if (process.env.NODE_ENV !== "development") {
+	import("module-alias/register");
+}
+
 /* eslint-disable import/first */
-import "module-alias/register";
 import bodyParser from "body-parser";
 import cors from "cors";
 import express, { Express, Request, Response } from "express";
@@ -18,8 +21,6 @@ import morgan from "morgan";
 import { router } from "@/api/routes";
 import { dbInit } from "@/db/init.db";
 import { errorHandler } from "@/middleware/errorHandler.middleware";
-
-// import qs from "@/utils/helpers/query.helpers";
 /* eslint-enable import/first */
 
 const PORT = process.env.PORT || 3000;

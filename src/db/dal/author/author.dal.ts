@@ -8,6 +8,11 @@ export const create = async (payload: AuthorCreationAttributes): Promise<AuthorR
 	return author;
 };
 
+export const bulkCreate = async (payload: AuthorCreationAttributes[]): Promise<AuthorResultAttributes[]> => {
+	const authors = (await AuthorModel.bulkCreate(payload)) as AuthorResultAttributes[];
+	return authors;
+};
+
 export const update = async (
 	id: string,
 	payload: Partial<AuthorCreationAttributes>

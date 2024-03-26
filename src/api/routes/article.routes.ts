@@ -23,6 +23,7 @@ const articlesRouter = Router();
 // articlesRouter.use(timeLog)
 
 articlesRouter.post("/", ArticleController.createOne);
+articlesRouter.post("/create_many", ArticleController.createMany);
 articlesRouter.get("/", ArticleController.retrieveMany);
 articlesRouter.get("/:id", ArticleController.retrieveOne);
 articlesRouter.put("/:id", ArticleController.updateOne);

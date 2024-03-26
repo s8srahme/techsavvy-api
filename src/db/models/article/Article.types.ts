@@ -2,6 +2,8 @@ import { Optional } from "sequelize";
 
 import { AuthorResultAttributes } from "../author/Author.types";
 
+// M O D E L  T Y P E S
+
 export type ArticleAttributes = {
 	id: string;
 	title: string;
@@ -17,6 +19,10 @@ export type ArticleAttributes = {
 	deletedAt?: Date;
 };
 
+/**
+ * NOTE: Some fields in CreationAttributes object will be given by corresponding *.service.ts and some will come
+ * 			 directly from the corresponding *.controller.ts request.
+ */
 export type ArticleCreationAttributes = Optional<ArticleAttributes, "id" | "slug" | "claps">;
 export type ArticleResultAttributes = Required<ArticleAttributes> & { Author?: AuthorResultAttributes };
 

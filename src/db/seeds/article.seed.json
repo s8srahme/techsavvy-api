@@ -1,0 +1,130 @@
+{
+	"articles": [
+		{
+			"title": "The Making of Mount Rushmore",
+			"description": "Mount Rushmore is a national memorial centered on a colossal sculpture carved into the granite face of Mount Rushmore in the Black Hills near Keystone, South Dakota, United States. The sculpture features the 60-foot-tall (18 m) heads of four United States presidents: George Washington, Thomas Jefferson, Theodore Roosevelt, and Abraham Lincoln, chosen to represent the nation's birth, growth, development and preservation respectively.",
+			"image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F87%2FMount_Rushmore_detail_view_(100MP).jpg%2F1200px-Mount_Rushmore_detail_view_(100MP).jpg&f=1&nofb=1&ipt=ad10b8b164e8f0f8a41c7909e16eb48dfd54e0095fa297e4b941c98d85cf73eb&ipo=images",
+			"alt": "Mount Rushmore",
+			"category": "work-and-career",
+			"authorId": "daf08ff3-1e35-4168-929b-6e5624cbd924",
+			"claps": 2
+		},
+		{
+			"title": "5 ways Amazon is positively impacting small towns across the US",
+			"description": "Amazon is one of the top investors in the U.S. economy, and since 2010, they have contributed more than $880 billion to the national gross domestic product (GDP). The investments they make help expand local economies by supporting the creation of direct jobs at Amazon and indirect jobs in fields like construction, health care, retail, and professional services.",
+			"image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.prod.www.spiegel.de%2Fimages%2F7c3a360f-0001-0004-0000-000001022337_w1528_r2.017145738779627_fpx54.51_fpy49.98.jpg&f=1&nofb=1&ipt=4f1fcad4826073ef64c1ed997d5cf031acaa9d0285703e7df60c132e0cb6d1f8&ipo=images",
+			"alt": "Construction, health care, retail and professional services",
+			"category": "work-and-career",
+			"authorId": "c29935b2-e96e-4203-9ebd-87f67c843835",
+			"claps": 4
+		},
+		{
+			"title": "Oppenheimer wins best picture Oscar, along with triumphs for Christopher Nolan and Cillian Murphy",
+			"description": "The 96th Academy Awards have come and gone, and Oppenheimer came out on top, winning best picture and six other Oscars.",
+			"image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Femeatribune.com%2Fwp-content%2Fuploads%2F2024%2F03%2Foppenheimer-fact-v-fiction-what-the-movie-got-right-and-wrong-according-to-a-nuclear-historian.jpg&f=1&nofb=1&ipt=8714087e4452c4592b3528f8d4f4fefb1074112567df602d2fb7ac05c9dcab1f&ipo=images",
+			"alt": "Christopher Nolan recreating Oppenheimer with Cillian Murphy",
+			"category": "movies-and-shows",
+			"authorId": "46782d90-307e-43b7-baa4-41945f436a90",
+			"claps": 6
+		},
+		{
+			"title": "Amazon named among the world's most admired companies for the eighth year in a row by Fortune magazine",
+			"description": "Fortune announced its 2024 list of the World's Most Admired companies, and this year Amazon ranked third—its eighth consecutive year in the top three.",
+			"image": "https://assets.aboutamazon.com/dims4/default/dd3b32a/2147483647/strip/true/crop/1999x1125+0+0/resize/1860x1047!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Feb%2F8b%2F7243c44d4275ba812bce7e354a72%2Fabout-amazon-hero-012924-amazonnamedamongfoortunemagmostadmiredcompanies-2000x1125-standardhero-aboutamazon-v1.jpg",
+			"alt": "Collage of various aspects of amazonian life including seattle office project kuiper hq2 building digit the robot and a dog in the office",
+			"category": "ai",
+			"authorId": "f4591beb-8304-49b5-8bd1-0dc4a5355bda",
+			"claps": 8
+		},
+		{
+			"title": "Jeff Bezos' Blue Origin targets 2025 for first moon landing",
+			"description": "Blue Origin is targeting 2025 for its first uncrewed moon landing. The reveal came via John Couluris, the Senior Vice President for Lunar Permanence at Blue Origin.",
+			"image": "https://bgr.com/wp-content/uploads/2021/07/MEGA761236_003.jpg?resize=1020%2C574&quality=82",
+			"alt": "Jeff Bezos at blue origin space",
+			"category": "space",
+			"authorId": "138744ee-1fd9-4864-b6d5-81f0dde4fffd",
+			"claps": 10
+		},
+		{
+			"title": "How astronomers track black hole mergers over cosmic time",
+			"description": "Unlike NASA's Webb Space Telescope, large ground based gravitational wave detectors are never going to generate pretty pictures.",
+			"image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FPQ65SLNFFlhAv5C5HhCn11YSz6U%3D%2F0x0%3A1920x1080%2F1820x1213%2Ffilters%3Afocal(807x387%3A1113x693)%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_image%2Fimage%2F67340944%2F24_Artists_Impression_of_Colliding_Black_Holes.0.jpg&f=1&nofb=1&ipt=54af416f1bfab98c59582fac8147a32416c475bf8721ab15cd3d569041e7f8be&ipo=images",
+			"alt": "Gravity waves",
+			"category": "space",
+			"authorId": "2767ca6a-ce59-49f0-8157-80de43bdfb71",
+			"claps": 12
+		},
+		{
+			"title": "Sony's new PS5 with a removable disc drive launches in November",
+			"description": "Sony officially announced a new PS5 model with a detachable disc drive and 1TB of internal storage. Often referred to as the PS5 Slim, this new model is slightly slimmer and shorter than the existing one but will crucially replace both the PS5 and PS5 Digital Edition.",
+			"image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.xcite.com%2Fmedia%2Fwysiwyg%2Fbanners-kw-xvii%2Fplaystation-5-with-dualsense-front-product-shot-01-ps5-en-30jul20.jpg&f=1&nofb=1&ipt=5a90e605bfcea2db63917e5c8e1c54495d0e51a9f8b60e6110ab2e3cc15b1be9&ipo=images",
+			"alt": "Sony's new PS5 Model",
+			"category": "gaming",
+			"authorId": "58505001-7e76-4089-b078-4570b0e6f227",
+			"claps": 14
+		},
+		{
+			"title": "Florida governor signs law restricting social media access for children",
+			"description": "Florida Republican Governor Ron DeSantis signed a bill into law banning children under age 14 from having their own social media accounts.",
+			"image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fredstateofminddaily.com%2Fwp-content%2Fuploads%2Fsites%2F4%2F2024%2F03%2Fshutterstock_573033001-768x512.jpg&f=1&nofb=1&ipt=79a3085eeff6e3448bc76d11627d21b55e8bd4a69361032fb752438a8b2405f4&ipo=images",
+			"alt": "Top social media apps",
+			"category": "software-and-apps",
+			"authorId": "8c699b6c-2de7-48d5-89d9-24c60cec867d",
+			"claps": 16
+		},
+		{
+			"title": "Deadpool 3 trailer welcomes Wolverine in Super Bowl 2024 spot",
+			"description": "The film, officially titled Deadpool & Wolverine, reunites Ryan Reynolds and Hugh Jackman in their Marvel characters for the highly anticipated R-rated outing.",
+			"image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.uhdpaper.com%2Fwallpaper%2Fdeadpool-3-wolverine-yellow-suit-hugh-jackman-170%401%40l-pc-4k.jpg&f=1&nofb=1&ipt=90267a89c4abff982373b93e36fb58c128b94347fab119036792232849352710&ipo=images",
+			"alt": "Deadpool & Wolverine",
+			"category": "movies-and-shows",
+			"authorId": "81bfd60e-4ec1-43b7-a39a-03724e0bfbb9",
+			"claps": 18
+		},
+		{
+			"title": "Prince of Persia: The Lost Crown is part metroidvania, part soulslike, and all fun",
+			"description": "We have already got a strong contender for Game of the Year. Yes, Prince of Persia: The Lost Crown is that good. You wil want to get back to playing as quickly as possible.",
+			"image": "https://duet-cdn.vox-cdn.com/thumbor/0x0:1920x1080/750x750/filters:focal(960x540:961x541):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/25225299/pop2.png",
+			"alt": "The Lost Crown poster",
+			"category": "gaming",
+			"authorId": "9b92c903-6aa4-4b7e-9a97-f671a7b857b1",
+			"claps": 20
+		},
+		{
+			"title": "Loki S2 finale recap - a glorious purpose at the end of time",
+			"description": "Loki's Season 2 finale showcases the character's growth and his willingness to make the impossible choice to save all existence.",
+			"image": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/11/loki-tom-hiddleston-season-2.jpg?q=50&fit=crop&w=1500&dpr=1.5",
+			"alt": "Tom Hiddleston as Loki in S2 finale",
+			"category": "movies-and-shows",
+			"authorId": "f02d9e4a-3387-4dfb-b456-1ef9d0fd4d0f",
+			"claps": 22
+		},
+		{
+			"title": "Akira Toriyama, the legendary Dragon Ball franchise creator, dies at 68",
+			"description": "Akira Toriyama, the creator of the Dragon Ball franchise and character designer for video games like Chrono Trigger and Dragon Quest, has died at the age of 68.",
+			"image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.suggest.com%2Fwp-content%2Fuploads%2F2024%2F03%2Fakira-toriyama-dragon-ball-creator-dies-at-68.jpg%3Ffit%3D800%252C533&f=1&nofb=1&ipt=0b89262d1f24fbafb0070f18dfd909de80133d80ce93abb4926ff6d716652e54&ipo=images",
+			"alt": "Akira Toriyama",
+			"category": "movies-and-shows",
+			"authorId": "119adc8b-1000-40bb-9523-e7ce76581a17",
+			"claps": 24
+		},
+		{
+			"title": "Nvidia is launching a new must-have AI chip - as customers still scramble for its last one",
+			"description": "The new class-leading H200 has more memory capacity and bandwidth, speeding up its work with generative AI and LLMs.",
+			"image": "https://duet-cdn.vox-cdn.com/thumbor/0x0:1920x1080/1080x720/filters:focal(960x540:961x541):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/25080736/nvidia_hgx_h200.jpg",
+			"alt": "Nvidia's HGX H200",
+			"category": "electronics",
+			"authorId": "58505001-7e76-4089-b078-4570b0e6f227",
+			"claps": 26
+		},
+		{
+			"title": "Amazon unveils plans for eye-catching Helix tower at new $2.5B headquarters",
+			"description": "An outdoor amphitheater, public plazas for farmers' markets and a 350-foot-tall tower inspired by a double helix, are among the latest design proposals for Amazon's new headquarters.",
+			"image": "https://media.cnn.com/api/v1/images/stellar/prod/210202025041-embargoed-02-amazon-hq2-design-helix.jpg?q=w_1160,c_fill/f_webp",
+			"alt": "Amazon HQ2 Helix tower design",
+			"category": "electronics",
+			"authorId": "2767ca6a-ce59-49f0-8157-80de43bdfb71",
+			"claps": 28
+		}
+	]
+}

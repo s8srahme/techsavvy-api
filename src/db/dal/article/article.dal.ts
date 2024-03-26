@@ -6,7 +6,7 @@
 
 import { parseQueryString } from "@/utils/helpers/query.helpers";
 import type { ParameterMapping } from "@/utils/types/query.types";
-import { ResponseManyPayload } from "@/utils/types/response.types";
+import type { ResponseManyPayload } from "@/utils/types/response.types";
 
 import { buildFilterQuery, buildPaginationQuery, buildSortQuery, toPagination } from "./article.helpers";
 import {
@@ -19,6 +19,11 @@ import {
 export const create = async (payload: ArticleCreationAttributes): Promise<ArticleResultAttributes> => {
 	const article = (await ArticleModel.create(payload)) as ArticleResultAttributes;
 	return article;
+};
+
+export const bulkCreate = async (payload: ArticleCreationAttributes[]): Promise<ArticleResultAttributes[]> => {
+	const articles = (await ArticleModel.bulkCreate(payload)) as ArticleResultAttributes[];
+	return articles;
 };
 
 export const update = async (

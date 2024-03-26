@@ -1,0 +1,105 @@
+{
+	"authors": [
+		{
+			"firstName": "Clark",
+			"lastName": "Kent",
+			"email": "clark.kent@unknownservice.com",
+			"avatar": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.VdA7TqECQTz7r2jJPHNiKwHaGL%26pid%3DApi&f=1&ipt=3fd3970a2f0f44b24787300d56aa7303723d7501c939a1d99fbb1f01355af1e0&ipo=images",
+			"roles": ["admin"],
+			"permissions": ["create", "update"],
+			"bornAt": "1940-01-01T23:00:00.000Z"
+		},
+		{
+			"firstName": "Peter",
+			"lastName": "Parker",
+			"email": "peter.parker@unknownservice.com",
+			"avatar": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.e35cwaz2MCzdr4qFvBS8kAHaHU%26pid%3DApi&f=1&ipt=fcae1a92825776608af8b529cee20b0a2d4c62ab87adffe30116086d789dfa4b&ipo=images",
+			"roles": ["admin"],
+			"permissions": ["create", "update"],
+			"bornAt": "1945-01-01T00:00:00.000Z"
+		},
+		{
+			"firstName": "Aang",
+			"lastName": "",
+			"email": "aang@unknownservice.com",
+			"avatar": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mW6siXQlVlGJXBFr48UOQgHaHR%26pid%3DApi&f=1&ipt=1f501cc25998eabe254beaf5bd878bc094040130f680f5874f3cb6ad937cade0&ipo=images",
+			"roles": ["admin"],
+			"permissions": ["create", "update"],
+			"bornAt": "1950-01-01T00:00:00.000Z"
+		},
+		{
+			"firstName": "Steve",
+			"lastName": "Rogers",
+			"email": "steverogersr@unknownservice.com",
+			"avatar": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F7f%2Fe6%2F61%2F7fe661a7d73c9ff8ca468856048cfaeb.png&f=1&nofb=1&ipt=98e99bc067cc7797725b8b30ba4b632740b0273838f0fbf257cd0f93c671a212&ipo=images",
+			"roles": ["admin"],
+			"permissions": ["create", "update"],
+			"bornAt": "1955-01-01T00:00:00.000Z"
+		},
+		{
+			"firstName": "Barry",
+			"lastName": "Allen",
+			"email": "barryallen@unknownservice.com",
+			"avatar": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc8%2F62%2Fa2%2Fc862a22a8495957492503097a5997d84.jpg&f=1&nofb=1&ipt=9238b2de5425979c90950696331801375b354ec62122c140248ede7cb2983843&ipo=images",
+			"roles": ["admin"],
+			"permissions": ["create", "update"],
+			"bornAt": "1960-01-01T00:00:00.000Z"
+		},
+		{
+			"firstName": "Mark",
+			"lastName": "Grayson",
+			"email": "markgrayson@unknownservice.com",
+			"roles": ["admin"],
+			"permissions": ["create", "update"],
+			"bornAt": "1995-01-01T00:00:00.000Z"
+		},
+		{
+			"firstName": "Eddie",
+			"lastName": "Brock",
+			"email": "eddiebrock@unknownservice.com",
+			"roles": ["admin"],
+			"permissions": ["create", "update"],
+			"bornAt": "1970-01-01T00:00:00.000Z"
+		},
+		{
+			"firstName": "Miles",
+			"lastName": "Morales",
+			"email": "milesmorales@unknownservice.com",
+			"roles": ["admin"],
+			"permissions": ["create", "update"],
+			"bornAt": "1975-01-01T00:00:00.000Z"
+		},
+		{
+			"firstName": "Loki",
+			"lastName": "Laufeyson",
+			"email": "lokilaufeyson@unknownservice.com",
+			"roles": ["admin"],
+			"permissions": ["create", "update"],
+			"bornAt": "1980-01-01T00:00:00.000Z"
+		},
+		{
+			"firstName": "Matt",
+			"lastName": "Murdock",
+			"email": "mattmurdock@unknownservice.com",
+			"roles": ["admin"],
+			"permissions": ["create", "update"],
+			"bornAt": "1985-01-01T00:00:00.000Z"
+		},
+		{
+			"firstName": "Wade",
+			"lastName": "Wilson",
+			"email": "wadewilson@unknownservice.com",
+			"roles": ["admin"],
+			"permissions": ["create", "update"],
+			"bornAt": "1990-01-01T00:00:00.000Z"
+		},
+		{
+			"firstName": "Wally",
+			"lastName": "West",
+			"email": "wallywest@unknownservice.com",
+			"roles": ["admin"],
+			"permissions": ["create", "update"],
+			"bornAt": "1965-01-01T00:00:00.000Z"
+		}
+	]
+}
