@@ -29,6 +29,7 @@ const AuthorController = __importStar(require("../controllers/author/author.cont
 const authorsRouter = (0, express_1.Router)();
 exports.authorsRouter = authorsRouter;
 authorsRouter.post("/", AuthorController.createOne);
+authorsRouter.post("/create_many", AuthorController.createMany);
 authorsRouter.get("/", AuthorController.retrieveMany);
 authorsRouter.get("/:id", AuthorController.retrieveOne);
 authorsRouter.put("/:id", AuthorController.updateOne);

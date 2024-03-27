@@ -5,11 +5,8 @@ import { config } from "dotenv";
  * can specify a custom path if your file containing environment variables is located elsewhere (sets in left to right
  * precedence).
  */
-config({ path: [".env.development", ".env.production"] });
-
-if (process.env.NODE_ENV !== "development") {
-	import("module-alias/register");
-}
+const NODE_ENV = process.env.NODE_ENV || "development";
+config({ path: `.env.${NODE_ENV}` });
 
 /* eslint-disable import/first */
 import bodyParser from "body-parser";
@@ -49,7 +46,7 @@ const serverInit = async () => {
 	try {
 		await serverInit();
 		app.listen(PORT, () => {
-			console.log(`[server] ${process.env.NODE_ENV} server running on http://localhost:${PORT}`);
+			console.log(`[server] ${NODE_ENV} server running on http://localhost:${PORT}`);
 		});
 	} catch (error) {
 		console.log(`[server] ${error.message}`);

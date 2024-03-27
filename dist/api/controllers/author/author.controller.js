@@ -23,9 +23,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.deleteOne = exports.retrieveMany = exports.retrieveOne = exports.updateOne = exports.createOne = void 0;
-const authorService = __importStar(require("@/api/services/author.service"));
-const response_types_1 = require("@/utils/types/response.types");
+exports.deleteOne = exports.retrieveMany = exports.retrieveOne = exports.updateOne = exports.createMany = exports.createOne = void 0;
+const authorService = __importStar(require("../../../api/services/author.service"));
+const response_types_1 = require("../../../utils/types/response.types");
 const author_mappers_1 = require("./author.mappers");
 const createOne = async (req, res) => {
     try {
@@ -38,6 +38,17 @@ const createOne = async (req, res) => {
     }
 };
 exports.createOne = createOne;
+const createMany = async (req, res) => {
+    try {
+        const payload = req.body.authors;
+        const authors = (await authorService.createMany(payload)).map(author_mappers_1.toAuthor);
+        return res.status(201).json({ status: response_types_1.ResponseStatus.SUCCESS, data: authors });
+    }
+    catch (err) {
+        return res.status(400).json({ status: response_types_1.ResponseStatus.ERROR, message: err.message });
+    }
+};
+exports.createMany = createMany;
 const updateOne = async (req, res) => {
     try {
         const { id } = req.params;

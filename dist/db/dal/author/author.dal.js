@@ -1,12 +1,17 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.deleteById = exports.getAll = exports.getById = exports.update = exports.create = void 0;
+exports.deleteById = exports.getAll = exports.getById = exports.update = exports.bulkCreate = exports.create = void 0;
 const models_1 = require("../../models");
 const create = async (payload) => {
     const author = await models_1.Author.create(payload);
     return author;
 };
 exports.create = create;
+const bulkCreate = async (payload) => {
+    const authors = (await models_1.Author.bulkCreate(payload));
+    return authors;
+};
+exports.bulkCreate = bulkCreate;
 const update = async (id, payload) => {
     const author = await models_1.Author.findByPk(id);
     if (!author) {

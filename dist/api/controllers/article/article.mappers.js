@@ -19,8 +19,9 @@ const toArticle = (article) => {
         const transformedAuthor = (0, author_mappers_1.toAuthor)(article.Author);
         transformedArticle.author = transformedAuthor;
     }
-    else
+    else {
         transformedArticle.authorId = article.authorId;
+    }
     return transformedArticle;
 };
 exports.toArticle = toArticle;

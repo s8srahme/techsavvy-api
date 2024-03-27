@@ -4,16 +4,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const dotenv_1 = require("dotenv");
-(0, dotenv_1.config)({ path: [".env.development", ".env.production"] });
-require("module-alias/register");
+const NODE_ENV = process.env.NODE_ENV || "development";
+(0, dotenv_1.config)({ path: `.env.${NODE_ENV}` });
 const body_parser_1 = __importDefault(require("body-parser"));
 const cors_1 = __importDefault(require("cors"));
 const express_1 = __importDefault(require("express"));
 const helmet_1 = __importDefault(require("helmet"));
 const morgan_1 = __importDefault(require("morgan"));
-const routes_1 = require("@/api/routes");
-const init_db_1 = require("@/db/init.db");
-const errorHandler_middleware_1 = require("@/middleware/errorHandler.middleware");
+const routes_1 = require("./api/routes");
+const init_db_1 = require("./db/init.db");
+const errorHandler_middleware_1 = require("./middleware/errorHandler.middleware");
 const PORT = process.env.PORT || 3000;
 const app = (0, express_1.default)();
 const serverInit = async () => {
@@ -35,7 +35,7 @@ const serverInit = async () => {
     try {
         await serverInit();
         app.listen(PORT, () => {
-            console.log(`[server] ${process.env.NODE_ENV} server running on http://localhost:${PORT}`);
+            console.log(`[server] ${NODE_ENV} server running on http://localhost:${PORT}`);
         });
     }
     catch (error) {

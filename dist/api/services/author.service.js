@@ -1,11 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.deleteOne = exports.retrieveMany = exports.retrieveOne = exports.updateOne = exports.createOne = void 0;
-const author_dal_1 = require("@/db/dal/author/author.dal");
+exports.deleteOne = exports.retrieveMany = exports.retrieveOne = exports.updateOne = exports.createMany = exports.createOne = void 0;
+const author_dal_1 = require("../../db/dal/author/author.dal");
 const createOne = (payload) => {
     return (0, author_dal_1.create)(payload);
 };
 exports.createOne = createOne;
+const createMany = (payload) => {
+    return (0, author_dal_1.bulkCreate)(payload);
+};
+exports.createMany = createMany;
 const updateOne = (id, payload) => {
     return (0, author_dal_1.update)(id, payload);
 };

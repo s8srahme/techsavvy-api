@@ -29,6 +29,7 @@ const ArticleController = __importStar(require("../controllers/article/article.c
 const articlesRouter = (0, express_1.Router)();
 exports.articlesRouter = articlesRouter;
 articlesRouter.post("/", ArticleController.createOne);
+articlesRouter.post("/create_many", ArticleController.createMany);
 articlesRouter.get("/", ArticleController.retrieveMany);
 articlesRouter.get("/:id", ArticleController.retrieveOne);
 articlesRouter.put("/:id", ArticleController.updateOne);
