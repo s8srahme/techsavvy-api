@@ -51,7 +51,7 @@ Now you're ready to rumble!
 
 ## Deployment
 
-Techsavvy API is deployed in parallel with [Techsavvy frontend](https://github.com/s8srahme/tech-savvy) on an AWS EC2 instance.
+Techsavvy API was initially deployed in parallel with [Techsavvy frontend](https://github.com/s8srahme/tech-savvy) on an AWS EC2 instance. Currently the instance is unavailable due to some technical issues.
 
 ## License
 
